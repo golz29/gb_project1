@@ -7,43 +7,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul>
+    <ul class="header">
         <li><a href="index.html">Главная</a></li>
         <li><a href="contacts.html">Контакты</a></li>
     </ul>
-    <h2 class="heading2">Contact Us</h2>
-    <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, magnam?</p>
-    <img src="img/contacts_image.png" alt="image" width="350px" height="350px">
-    <h4 class="heading4">Address</h4>
-    <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-    <h4 class="heading4">Phone</h4>
-    <ul>
-        <li>+79254457450</li>
-        <li>+79254457450</li>
-    </ul>
-    <h4 class="heading4">Online Service</h4>
-    <ul>
-        <li><a href="https://google.com" target="_blank">google.com</a></li>
-        <li><a href="boforsan@gmail.com" target="_blank">boforsan@gmail.com</a></li>     
-    </ul>
-    ул. Неглинная, 12к2
-    +79254457450
-    <h4 class="heading4">Send Us Message</h4>
-    <form action="#">
-        Full Name <input class="input" type="text" placeholder="Ivan Petrov"><br>
-        Email <input class="input" type="email" placeholder="example@mail.ru"><br>
-        Message <br><textarea class="input" cols="30" rows="10" placeholder="Your Message"></textarea><br>
-        <button class="submit_button" type="submit">Submit</button>
-    </form>
+    <div class="contact_us">
+        <h2 class="heading2">Contact Us</h2>
+        <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, magnam?</p>
+    </div>
+    <div class="contacts_feedback">
+        <div class="contacts_info">
+            <img src="img/contacts_image.png" alt="image" width="350px" height="350px">
+            <h4 class="heading4">Address</h4>
+            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <h4 class="heading4">Phone</h4>
+            <ul>
+                <li>+79254457450</li>
+                <li>+79254457450</li>
+            </ul>
+            <h4 class="heading4">Online Service</h4>
+            <ul>
+                <li>google.com</li>
+                <li>boforsan@gmail.com</li>     
+            </ul>
+        </div>
+        <div class="contacts_form">
+            <form action="#">
+                <h4 class="heading4">Send Us Message</h4>
+                Full Name <input class="input" type="text" placeholder="Ivan Petrov"><br>
+                Email <input class="input" type="email" placeholder="example@mail.ru"><br>
+                Message <br><textarea class="input" cols="30" rows="10" placeholder="Your Message"></textarea><br>
+                <button class="submit_button" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A62ea33b9b6c9771012f8d3beccfbe944d670229cc5447340aecd0f2f701f475e&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
-    <h3 class="heading3">Lorem, ipsum dolor.</h3>
-    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, veniam?</p>
-    <hr>
-    <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>+79254457450</li>
-        <li>boforsan@gmail.com</li>
-    </ul>
-    <p class="paragraph">&copy; Максимов Г.Д., 2024. Все права защищены.</p>
+    <div class="final_page">
+        <div class="container">
+            <div class="lets_talk_sector">
+                <div class="lets_talk_content">
+                    <h3 class="heading3">Lorem, ipsum dolor.</h3>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, veniam?</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>+79254457450</li>
+                <li>boforsan@gmail.com</li>
+            </ul>
+            <div class="copyright_sector">
+                <p class="paragraph">&copy; Максимов Г.Д., 2024. Все права защищены.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
